@@ -1,9 +1,9 @@
-CS520 – Homework 3: Discrete-Event Bus System Simulation
-Student: [Your Name]
+** CS520 – Homework 3: Discrete-Event Bus System Simulation
+Name: Nicolas Buendia
+
 Course: CS 520 – Introduction to Operating Systems
-Language: Java
-Instructor: [Professor’s Name]
-Date: [Submission Date]
+
+Date: October 11, 2025
 
 ------------------------------------------------------------
 1. Overview
