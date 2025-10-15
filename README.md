@@ -64,5 +64,3 @@ Each run generates:
 - No external input files are required.
 - The simulation parameters can be adjusted via command-line flags.
 - Output data supports the analysis and recommendations in the Report.pdf file.
-
-End of README.txt
