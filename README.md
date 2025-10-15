@@ -50,9 +50,13 @@ mv *.csv out_hold/
 ## Program Output
 
 Each run generates:
+
   headways.csv   - Time gaps (headways) between consecutive buses
+  
   bus_stats.csv  - Average/max onboard passengers per bus
+  
   stop_stats.csv - Queue statistics (avg, min, max per stop)
+  
   snapshots.csv  - System state logs at 1-minute intervals
 
 ## Notes
