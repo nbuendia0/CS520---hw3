@@ -23,9 +23,13 @@ The program outputs all results in CSV format for further analysis.
 ## Files Included
 
 BusSim.java           - Main simulation program
+
 parameters.txt        - Notes on parameters used
+
 out_baseline/         - Baseline simulation results (CSV files)
+
 out_hold/             - Headway control results (CSV files)
+
 Report.pdf            - Final report including plots and recommendations
 
 
