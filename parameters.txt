@@ -1,5 +1,3 @@
-CS520 – Homework 3: Discrete-Event Bus System Simulation
---------------------------------------------------------
 Simulation Parameters Used (Default)
 ------------------------------------
 Number of Buses:           5
