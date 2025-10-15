@@ -1,9 +1,9 @@
 # CS520 – Homework 3: Discrete-Event Bus System Simulation
 
-**Student:** Your Name  
-**Course:** CS 520 – Introduction to Operating Systems  
-**Assignment:** Homework #3 (Bus Simulation)  
-**Language:** Java  
+Nicolas Buendia
+CS 520 
+Homework #3 (Bus Simulation)  
+October 11, 2025
 
 ---
 
