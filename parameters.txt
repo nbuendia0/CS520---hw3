@@ -1,0 +1,53 @@
+CS520 – Homework 3: Discrete-Event Bus System Simulation
+--------------------------------------------------------
+Simulation Parameters Used (Default)
+------------------------------------
+Number of Buses:           5
+Number of Stops:           15
+Inter-stop Travel Time:    5 minutes
+Passenger Arrival Rate:    2.5 passengers/minute
+Boarding Time:             2 seconds/passenger
+Simulation Horizon:        8 hours
+Hold Policy:               Enabled (MAX_HOLD_SEC = 90, ALPHA = 1.0)
+Random Seed:               42
+
+Notes:
+These default values were used for the main experimental comparison 
+between the baseline (no control) and hold (headway control) policies.
+
+--------------------------------------------------------
+Additional Test Scenarios (Exploratory Runs)
+--------------------------------------------
+# Scenario A – Increased Passenger Demand
+Number of Buses:           5
+Passenger Arrival Rate:    3.5 passengers/minute
+Observation: Higher demand increased queue lengths, 
+making the hold policy even more beneficial.
+
+# Scenario B – Reduced Fleet Size
+Number of Buses:           3
+Passenger Arrival Rate:    2.5 passengers/minute
+Observation: Fewer buses resulted in longer headways 
+and higher passenger wait times under both policies.
+
+# Scenario C – Higher Bus Frequency
+Number of Buses:           7
+Passenger Arrival Rate:    2.5 passengers/minute
+Observation: More buses reduced queues but caused mild bunching 
+in the baseline case; hold policy stabilized spacing effectively.
+
+# Scenario D – Shorter Travel Time
+Inter-stop Travel Time:    3 minutes
+Observation: Faster travel slightly reduced queues but increased 
+headway variability without control.
+
+--------------------------------------------------------
+Parameter Control Notes
+--------------------------------------------
+All parameters were provided as command-line arguments at runtime. 
+Example:
+java -cp . BusSim --hours 8 --seed 42 --mode hold --maxHoldSec 90 --alpha 1.0
+
+No external input files are required for execution.
+All output data (headways, queues, bus loads) are generated automatically
+as CSV files within the working directory.
