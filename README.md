@@ -1,4 +1,4 @@
-**CS520 – Homework 3: Discrete-Event Bus System Simulation
+#CS520 – Homework 3: Discrete-Event Bus System Simulation
 Name: Nicolas Buendia
 
 Course: CS 520 – Introduction to Operating Systems
